@@ -1,4 +1,4 @@
-# Admin Dashboard ✅
+# Admin Dashboard (HTML + CSS Grid)
 
 This is a simple Admin Dashboard website made using **HTML, CSS Grid, and JavaScript**.
 
@@ -6,19 +6,28 @@ We made this project for our college experiment.
 
 ---
 
-## ✅ Features
+## What is inside this dashboard?
 
-- Admin dashboard layout using **CSS Grid**
 - Sidebar menu (Dashboard, Users, Orders, Analytics, Settings)
-- Each button works and opens its own section
-- Light mode and Dark mode theme switch
-- Simple tables for Users and Orders
-- Simple Analytics chart using CSS bars
-- Fully responsive design (works on mobile also)
+- Dashboard cards (Users, Revenue, Orders, Pending Issues)
+- Quick Analytics section with a basic bar graph (CSS graph)
+- Recent Users table
+- Light and Dark mode switch button
 
 ---
 
-## 🛠 Technologies Used
+## Theme Switching
+
+This dashboard has 2 themes:
+
+✅ Light Mode (white background)  
+✅ Dark Mode (dark background)
+
+You can change theme using the button on top.
+
+---
+
+## Technologies Used
 
 - HTML
 - CSS (CSS Grid)
@@ -26,15 +35,23 @@ We made this project for our college experiment.
 
 ---
 
-## 🚀 Live Demo (Netlify Link)
+## Live Demo (Netlify)
 
-👉 Add your Netlify link here:
+👉 Paste your Netlify link here:
 
 `https://24bcy70054-experiment-1.netlify.app/`
 
 ---
 
-## 📂 How to Run This Project
+## GitHub Repository
+
+👉 Paste your GitHub repo link here:
+
+`https://github.com/Rahuljaluthria/Admin-Dashboard`
+
+---
+
+## How to Run This Project
 
 1. Download or clone this project
 2. Open the folder in VS Code
@@ -42,6 +59,6 @@ We made this project for our college experiment.
 
 ---
 
-## ✅ Created By
+## Made By
 
 **Rahul Jaluthria**
