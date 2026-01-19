@@ -1,3 +1,9 @@
+# Personal Information
+Name - Rahul Jaluthria
+UID - 24BCY70054
+GROUP - 24BCY-3(A)
+---
+
 # Admin Dashboard (HTML + CSS Grid)
 
 This is a simple Admin Dashboard website made using **HTML, CSS Grid, and JavaScript**.
