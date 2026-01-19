@@ -1,14 +1,12 @@
 /* Default Theme (Light) */
 :root {
-  --bg: #ffffff;        
+  --bg: #f4f6f9;
   --sidebar: #111827;
-  --text: #111111;      
-  --card: #ffffff;      
-  --primary: #6b7280;
-  --chart-bar: #9ca3af;
+  --text: #111;
+  --card: #fff;
+  --primary: #2563eb;
   --shadow: rgba(0, 0, 0, 0.1);
 }
-
 
 /* Dark Theme */
 .dark-theme {
@@ -17,7 +15,6 @@
   --text: #f8fafc;
   --card: #1e293b;
   --primary: #38bdf8;
-  --chart-bar: #60a5fa;
   --shadow: rgba(255, 255, 255, 0.08);
 }
 
@@ -160,48 +157,4 @@ th, td {
   .sidebar {
     display: none;
   }
-}
-/* Quick Analytics Graph */
-.quick-analytics {
-  background: var(--card);
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px var(--shadow);
-  margin-top: 20px;
-}
-
-.quick-analytics h2 {
-  margin-bottom: 15px;
-}
-
-.graph {
-  height: 140px;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 12px;
-  align-items: end;
-}
-
-.bar {
-  background: var(--chart-bar);
-  border-radius: 10px;
-  transition: 0.3s;
-}
-
-.bar:hover {
-  transform: translateY(-6px);
-}
-
-/* Different bar heights */
-.b1 { height: 40%; }
-.b2 { height: 70%; }
-.b3 { height: 55%; }
-.b4 { height: 85%; }
-.b5 { height: 60%; }
-.b6 { height: 95%; }
-
-.graph-text {
-  margin-top: 10px;
-  font-size: 13px;
-  opacity: 0.7;
 }
