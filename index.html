@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="dashboard">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">A</div>
+        <div>
+          <h2 class="logo">AdminPanel</h2>
+          <p class="tagline">Manage everything</p>
+        </div>
+      </div>
+
+      <nav class="menu">
+        <button class="nav-link active" data-page="dashboard">🏠 Dashboard</button>
+        <button class="nav-link" data-page="users">👤 Users</button>
+        <button class="nav-link" data-page="orders">📦 Orders</button>
+        <button class="nav-link" data-page="analytics">📊 Analytics</button>
+        <button class="nav-link" data-page="settings">⚙ Settings</button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="profile">
+          <div class="avatar">R</div>
+          <div class="profile-info">
+            <p class="name">Rahul</p>
+            <p class="role">Admin</p>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Section -->
+    <main class="main">
+
+      <!-- Topbar -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <h1 id="pageTitle">Dashboard</h1>
+          <p class="subtitle" id="pageSubtitle">Overview of your system</p>
+        </div>
+
+        <div class="topbar-right">
+          <div class="search-box">
+            <input type="text" placeholder="Search..." />
+          </div>
+
+          <button id="themeBtn" class="theme-btn">
+            🌙 Dark Mode
+          </button>
+        </div>
+      </header>
+
+      <!-- CONTENT AREA -->
+      <section class="content-area">
+
+        <!-- DASHBOARD PAGE -->
+        <div class="page active-page" id="dashboard">
+          <section class="cards">
+            <div class="card">
+              <div class="card-head">
+                <h3>Total Users</h3>
+                <span class="pill green">+12%</span>
+              </div>
+              <p class="big-number">1,245</p>
+              <p class="muted">Active this month</p>
+            </div>
+
+            <div class="card">
+              <div class="card-head">
+                <h3>Revenue</h3>
+                <span class="pill blue">+8%</span>
+              </div>
+              <p class="big-number">₹58,900</p>
+              <p class="muted">Total earned</p>
+            </div>
+
+            <div class="card">
+              <div class="card-head">
+                <h3>Orders</h3>
+                <span class="pill orange">+20%</span>
+              </div>
+              <p class="big-number">320</p>
+              <p class="muted">Completed</p>
+            </div>
+
+            <div class="card">
+              <div class="card-head">
+                <h3>Pending Issues</h3>
+                <span class="pill red">Alert</span>
+              </div>
+              <p class="big-number">12</p>
+              <p class="muted">Need attention</p>
+            </div>
+          </section>
+
+          <section class="grid-two">
+            <div class="panel">
+              <h2>Quick Analytics</h2>
+              <div class="chart">
+                <div class="bar" style="height: 55%"></div>
+                <div class="bar" style="height: 70%"></div>
+                <div class="bar" style="height: 45%"></div>
+                <div class="bar" style="height: 80%"></div>
+                <div class="bar" style="height: 60%"></div>
+                <div class="bar" style="height: 90%"></div>
+              </div>
+            </div>
+
+            <div class="panel">
+              <h2>Recent Users</h2>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Rahul</td>
+                      <td>rahul@gmail.com</td>
+                      <td><span class="status active">Active</span></td>
+                    </tr>
+                    <tr>
+                      <td>Danish</td>
+                      <td>danish@gmail.com</td>
+                      <td><span class="status inactive">Inactive</span></td>
+                    </tr>
+                    <tr>
+                      <td>Pragati</td>
+                      <td>pragati@gmail.com</td>
+                      <td><span class="status active">Active</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- USERS PAGE -->
+        <div class="page" id="users">
+          <div class="panel">
+            <h2>Users Management</h2>
+            <p class="muted">List of registered users</p>
+
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#101</td>
+                    <td>Rahul</td>
+                    <td>rahul@gmail.com</td>
+                    <td>Admin</td>
+                    <td><span class="status active">Active</span></td>
+                  </tr>
+                  <tr>
+                    <td>#102</td>
+                    <td>Pragati</td>
+                    <td>pragati@gmail.com</td>
+                    <td>Editor</td>
+                    <td><span class="status active">Active</span></td>
+                  </tr>
+                  <tr>
+                    <td>#103</td>
+                    <td>Danish</td>
+                    <td>danish@gmail.com</td>
+                    <td>User</td>
+                    <td><span class="status inactive">Inactive</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- ORDERS PAGE -->
+        <div class="page" id="orders">
+          <div class="panel">
+            <h2>Orders</h2>
+            <p class="muted">Track your recent orders</p>
+
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Order ID</th>
+                    <th>Customer</th>
+                    <th>Amount</th>
+                    <th>Payment</th>
+                    <th>Delivery</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#ORD-201</td>
+                    <td>Rahul</td>
+                    <td>₹1299</td>
+                    <td><span class="pill green">Paid</span></td>
+                    <td><span class="pill blue">Delivered</span></td>
+                  </tr>
+                  <tr>
+                    <td>#ORD-202</td>
+                    <td>Danish</td>
+                    <td>₹799</td>
+                    <td><span class="pill orange">Pending</span></td>
+                    <td><span class="pill orange">Processing</span></td>
+                  </tr>
+                  <tr>
+                    <td>#ORD-203</td>
+                    <td>Pragati</td>
+                    <td>₹2200</td>
+                    <td><span class="pill green">Paid</span></td>
+                    <td><span class="pill red">Cancelled</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- ANALYTICS PAGE -->
+        <div class="page" id="analytics">
+          <section class="cards">
+            <div class="card">
+              <h3>Visitors</h3>
+              <p class="big-number">23,450</p>
+              <p class="muted">Last 30 days</p>
+            </div>
+
+            <div class="card">
+              <h3>Conversion</h3>
+              <p class="big-number">4.8%</p>
+              <p class="muted">Improving</p>
+            </div>
+
+            <div class="card">
+              <h3>Bounce Rate</h3>
+              <p class="big-number">39%</p>
+              <p class="muted">Stable</p>
+            </div>
+          </section>
+
+          <div class="panel">
+            <h2>Traffic Chart</h2>
+            <p class="muted">Simple analytics (bars)</p>
+
+            <div class="chart large-chart">
+              <div class="bar" style="height: 30%"></div>
+              <div class="bar" style="height: 55%"></div>
+              <div class="bar" style="height: 40%"></div>
+              <div class="bar" style="height: 75%"></div>
+              <div class="bar" style="height: 65%"></div>
+              <div class="bar" style="height: 85%"></div>
+              <div class="bar" style="height: 50%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SETTINGS PAGE -->
+        <div class="page" id="settings">
+          <div class="panel">
+            <h2>Settings</h2>
+            <p class="muted">Customize your dashboard</p>
+
+            <div class="settings-grid">
+              <div class="setting-card">
+                <h3>Theme</h3>
+                <p class="muted">Switch between light and dark mode.</p>
+                <button id="themeBtn2" class="theme-btn small">Toggle Theme</button>
+              </div>
+
+              <div class="setting-card">
+                <h3>Profile</h3>
+                <p class="muted">Admin: Rahul</p>
+                <button class="outline-btn">Edit Profile</button>
+              </div>
+
+              <div class="setting-card">
+                <h3>Security</h3>
+                <p class="muted">Keep your admin panel secure.</p>
+                <button class="outline-btn">Update Password</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
