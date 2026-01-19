@@ -2,7 +2,7 @@
 
 This is a simple Admin Dashboard website made using **HTML, CSS Grid, and JavaScript**.
 
-We made this project for our college experiment.
+I made this project for our college experiment.
 
 ---
 
@@ -32,6 +32,26 @@ You can change theme using the button on top.
 - HTML
 - CSS (CSS Grid)
 - JavaScript
+
+---
+
+# learning outcomes
+
+1. How to create an admin dashboard layout using CSS Grid
+
+2. How to make a sidebar and main content area properly
+
+3. How to design dashboard cards and tables using HTML and CSS
+
+4. How to use CSS variables for theme colors
+
+5. How to add Light Mode and Dark Mode using JavaScript
+
+6. How to create a basic Quick Analytics bar graph using only CSS
+
+7. How to make the webpage responsive for different screen sizes
+
+8. How to host the project on GitHub and deploy it on Netlify
 
 ---
 
