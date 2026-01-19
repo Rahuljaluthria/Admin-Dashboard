@@ -8,29 +8,35 @@
 </head>
 
 <body>
-     <div class="sidebar-footer">
-        <div class="profile">
-          <div class="avatar">R</div>
-          <div class="profile-info">
-            <p class="name">Rahul</p>
-            <p class="role">Admin</p>
-          </div>
-        </div>
-      </div>
-    </aside>
   <div class="dashboard">
 
     <!-- Sidebar -->
     <aside class="sidebar">
-      <h2 class="logo">AdminPanel</h2>
+      <div class="brand">
+        <div class="brand-icon">A</div>
+        <div>
+          <div class="logo">AdminPanel</div>
+          <div class="tagline">Control Center</div>
+        </div>
+      </div>
 
       <nav class="menu">
-        <a href="#" class="active">🏠 Dashboard</a>
-        <a href="#">👤 Users</a>
-        <a href="#">📦 Orders</a>
-        <a href="#">📊 Analytics</a>
-        <a href="#">⚙ Settings</a>
+        <button class="nav-link active">🏠 Dashboard</button>
+        <button class="nav-link">👤 Users</button>
+        <button class="nav-link">📦 Orders</button>
+        <button class="nav-link">📊 Analytics</button>
+        <button class="nav-link">⚙ Settings</button>
       </nav>
+
+      <div class="sidebar-footer">
+        <div class="profile">
+          <div class="avatar">R</div>
+          <div class="profile-info">
+            <div class="name">Rahul</div>
+            <div class="role">Admin</div>
+          </div>
+        </div>
+      </div>
     </aside>
 
     <!-- Main Section -->
@@ -38,11 +44,19 @@
 
       <!-- Top Navbar -->
       <header class="topbar">
-        <h1>Dashboard</h1>
+        <div>
+          <h1>Dashboard</h1>
+          <div class="subtitle">Welcome back, Rahul</div>
+        </div>
 
-        <button id="themeBtn" class="theme-btn">
-          🌙 Dark Mode
-        </button>
+        <div class="topbar-right">
+          <div class="search-box">
+            <input type="text" placeholder="Search...">
+          </div>
+          <button id="themeBtn" class="theme-btn">
+            🌙 Dark Mode
+          </button>
+        </div>
       </header>
 
       <!-- Cards Section -->
