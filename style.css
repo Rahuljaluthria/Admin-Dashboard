@@ -1,12 +1,14 @@
 /* Default Theme (Light) */
 :root {
-  --bg: #f4f6f9;
+  --bg: #ffffff;        
   --sidebar: #111827;
-  --text: #111;
-  --card: #fff;
-  --primary: #ffffff;
+  --text: #111111;      
+  --card: #ffffff;      
+  --primary: #2563eb;
+  --chart-bar: #3b82f6;
   --shadow: rgba(0, 0, 0, 0.1);
 }
+
 
 /* Dark Theme */
 .dark-theme {
@@ -15,6 +17,7 @@
   --text: #f8fafc;
   --card: #1e293b;
   --primary: #38bdf8;
+  --chart-bar: #60a5fa;
   --shadow: rgba(255, 255, 255, 0.08);
 }
 
@@ -180,7 +183,7 @@ th, td {
 }
 
 .bar {
-  background: var(--primary);
+  background: var(--chart-bar);
   border-radius: 10px;
   transition: 0.3s;
 }
