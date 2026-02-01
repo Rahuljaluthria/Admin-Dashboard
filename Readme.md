@@ -63,7 +63,6 @@ You can change theme using the button on top.
 
 ## Live Demo (Netlify)
 
-👉 Paste your Netlify link here:
 
 `https://24bcy70054-experiment-1.netlify.app/`
 
@@ -71,7 +70,6 @@ You can change theme using the button on top.
 
 ## GitHub Repository
 
-👉 Paste your GitHub repo link here:
 
 `https://github.com/Rahuljaluthria/Admin-Dashboard`
 
